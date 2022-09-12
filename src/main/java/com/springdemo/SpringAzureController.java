@@ -8,6 +8,6 @@ public class SpringAzureController {
 
 	@GetMapping("/message")
 	public String message() {
-		return "Congrats Your Application is Deployed in Azure Platform! ";
+		return "Congrats Your Application is Deployed in Azure Platform!";
 	}
 }
