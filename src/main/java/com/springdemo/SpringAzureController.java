@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringAzureController {
 
-	@GetMapping("")
+	@GetMapping("/message")
 	public String message() {
-		return "Congrats Your Application Deployed in Azure !";
+		return "Congrats Your Application is Deployed in Azure Platform!";
 	}
 }
